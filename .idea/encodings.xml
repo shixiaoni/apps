@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hello/src/App.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/container/actions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/container/login.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/container/reducers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/container/super.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students1/rcontainner1.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students1/students1-left-2.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students1/students1-right-3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students2/lcontainner.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students2/popt.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students2/rcontainner2.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students2/students2-left-2.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students2/students2-right-2.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/rcontainner3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-1-left.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-1-right.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-2.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-4.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-5.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-6.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-7.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-8.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students3/students3-right-9.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students4/code.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students4/entry.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello/src/students4/students4-left-2.js" charset="UTF-8" />
+  </component>
+</project>

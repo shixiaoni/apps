@@ -1,0 +1,412 @@
+body,ul,li,p,pre{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+.box{
+    width:100%;
+    /*height: 1089px;*/
+    background: #EAEAEA;
+}
+/*上边*/
+.nav{
+    width: 100%;
+    height: 100px;
+    background: #0E0C19;
+}
+.logo{
+    width: 300px;
+    height: 100%;
+    /*background: red;*/
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+}
+.sz{
+    /*width: 860px;*/
+    height: 100%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 100px;
+    /*background: blue;*/
+    float: left;
+}
+.sz>li:nth-of-type(1){
+    float: left;
+}
+.sz>li:nth-of-type(2){
+    float: left;
+    padding-left: 30px;
+    color: #EFD63B;
+}
+.sz>li:nth-of-type(3){
+    float: left;
+    padding-left: 30px;
+}
+.sz>li:nth-of-type(4){
+    float: left;
+    padding-left: 130px;
+}
+.sz>li:nth-of-type(5){
+    float: left;
+    padding-left: 30px;
+    color: #EFD63B;
+}
+.sz>li:nth-of-type(6){
+    float: left;
+    padding-left: 30px;
+}
+.shezhi{
+    display: block;
+    width: 29px;
+    height: 22px;
+    /*background: url(../img/超级管理员-班级设置_03.png);*/
+    float: left;
+    margin-left: 98px;
+    margin-top: 35px;
+}
+/*左边*/
+.left{
+    width: 300px;
+    height:988px;
+    /*background: orange;*/
+    float: left;
+    position: relative;
+}
+.tx{
+    width: 100%;
+    height: 300px;
+    /*background: url(../images/1.jpg) no-repeat 0 0;*/
+    background-size: 100% auto;
+}
+.gai{
+    width:300px;
+    height: 300px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+}
+.yuan{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /*background: url(../images/1.jpg) no-repeat 0 0;*/
+    background-size: 100% auto;
+    position: absolute;
+    left: 95px;
+    top: 52px;
+}
+.left-z{
+    width: 114px;
+    position: absolute;
+    left: 86px;
+    top: 172px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.left-z>li:nth-of-type(1){
+    margin-top: 0;
+}
+.left-z>li:nth-of-type(2){
+    margin-top:8px;
+}
+.left-z>li:nth-of-type(3){
+    margin-top: 6px;
+}
+.left-z>li:nth-of-type(4){
+    margin-top: 8px;
+    font-size: 12px;
+}
+.left-m{
+    width: 100%;
+    height: 608px;
+    background: #0E0C19;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.left-m>li{
+    height: 50px;
+    border-bottom: 1px solid #000000;
+    box-sizing:border-box;
+}
+/*右边*/
+.right{
+    width:1049px;
+    height: 988px;
+    background:#EAEAEA;
+    /*background-color: green;*/
+    float: left;
+}
+.right-d{
+    width: 1007px;
+    height: 959px;
+    float: left;
+    /*background: pink;*/
+    padding-left: 21px;
+    padding-top: 30px;
+    padding-right:21px;
+    position: relative;
+}
+.jl{
+    width: 100%;
+    height: 50px;
+    background: #EFD63B;
+    /*margin-top: 40px;*/
+}
+.jl-tb{
+    width: 28px;
+    height: 22px;
+    /*background: url(../img/班级管理员-学生管理2_03.png) no-repeat 0 0;*/
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.jl>p:nth-of-type(1){
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #333333;
+    margin-left: 9px;
+}
+.jl>p:nth-of-type(2){
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    /*line-height: 60px;*/
+    margin-top:23px;
+    color: #333333;
+    margin-left: 9px;
+}
+.dg{
+    width: 100%;
+    height: 494px;
+    /*background-color: red;*/
+    margin-top: 30px;
+    position: relative;
+}
+.dg>li{
+    width: 236px;
+    height: 82px;
+    /*background-color: pink;*/
+    float: left;
+    margin-left: 21px;
+    margin-top: 21px;
+    font-size: 24px;
+    line-height: 82px;
+    text-align: center;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #fff;
+    color: #646464;
+}
+.dg>li:nth-of-type(1),.dg>li:nth-of-type(5),.dg>li:nth-of-type(9),.dg>li:nth-of-type(13),.dg>li:nth-of-type(17){
+    margin-left: 0;
+}
+.dg>li:nth-of-type(1),.dg>li:nth-of-type(2),.dg>li:nth-of-type(3),.dg>li:nth-of-type(4){
+    margin-top: 0;
+}
+.dg>li:nth-of-type(1){
+    background-color: #EED63B;
+}
+.dg>li:nth-of-type(2){
+    background-color: #CCCCCC;
+}
+.dg>li:last-child{
+    background-color: #CCCCCC;
+}
+.jj{
+    width: 22px;
+    height: 23px;
+    /*background: url(../img/班级管理员_03.png);*/
+    margin: 26px auto;
+}
+.jsnx{
+    width: 120px;
+    height: 64px;
+    /*background:url(../img/班级管理员-休学_03.png) no-repeat 0 0;*/
+    background-size: 100% 100%;
+    position: absolute;
+    top: 28px;
+    left: 384px;
+}
+
+
+
+.right-d-s{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0.4;
+}
+.zsm{
+    width: 500px;
+    height: 544px;
+    background: #fff;
+    position: absolute;
+    /*left: 284px;
+    top: 342px;*/
+    top: 0;left: 0;
+    right: 0;bottom: 0;
+    margin: 142px auto;
+    z-index: 9999;
+}
+.zsm-z{
+    width: 300px;
+    height: 332px;
+    /*background: yellow;*/
+    margin: 40px auto;
+}
+.zsm-z-s{
+    width: 142px;
+    height: 36px;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    color: #333333;
+}
+.zsm-z-s>p:nth-of-type(1){
+    width: 100%;
+    height: 24px;
+}
+.zsm-z-s>p:nth-of-type(2){
+    width: 100%;
+    height: 8px;
+    font-size: 8px;
+}
+.zsm-z-x{
+    width: 100%;
+    height: 272px;
+    /*background: pink;*/
+    float: left;
+    margin-top: 24px;
+    border-top:1px solid #333333;
+    box-sizing:border-box;
+}
+.zsm-z-x>ul{
+    display: block;
+    width: 80px;
+    height: 290px;
+    /*background: blue;*/
+    margin-top: 20px;
+    float: left;
+}
+.zsm-z-x>ul>li{
+    width: 80px;
+    height: 50px;
+    background: orange;
+    /*float: left;*/
+    margin-top: 10px;
+}
+.zsm-z-x>ul>li:nth-of-type(1){
+    margin-top: 0;
+}
+.one>p:nth-of-type(1){
+    width: 80px;
+    height: 100%;
+    background: #EED63B;
+    float: left;
+    text-align: center;
+    line-height:50px;
+    font-weight: bold;
+    color: #333333;
+}
+.one>p:nth-of-type(2){
+    width: 200px;
+    height: 100%;
+    background: #F3E275;
+    float: left;
+    line-height:50px;
+    padding-left: 20px;
+}
+.zsm-z-x>form{
+    width: 220px;
+    height: 290px;
+    /*background: red;*/
+    margin-top: 20px;
+    float: left;
+}
+.zsm-z-x>form>input{
+    width:210px;
+    height: 48px;
+    margin-top: 10px;
+    background: #F3E275;
+    border: none;
+    padding-left: 10px;
+    color: #333333;
+}
+.zsm-z-x>form>input:nth-of-type(1){
+    margin-top: 0;
+}
+.zsm-z-x>form>select{
+    width:220px;
+    height: 50px;
+    margin-top: 10px;
+    background: #F3E275;
+    border: none;
+    padding-left: 10px;
+    color: #333333;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+.zsm-z-x>form{
+    position: relative;
+}
+.ooo{
+    width: 14px;
+    height: 7px;
+    /*background: url(../img/444.png);*/
+    /*background: pink;*/
+    z-index: 99;
+    position: absolute;
+    top: 82px;
+    right: 20px;
+}
+.ooo1{
+    width: 14px;
+    height: 7px;
+    /*background: url(../img/444.png);*/
+    /*background: pink;*/
+    z-index: 99;
+    position: absolute;
+    top: 202px;
+    right: 20px;
+}
+.xxx{
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin-top: 41px;
+}
+.xxxl{
+    width: 100px;
+    height: 100%;
+    background: #333333;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.xxxr{
+    width: 100px;
+    height: 100%;
+    background: #EED63B;
+    float: right;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+}

@@ -1,0 +1,179 @@
+import React,{ Component } from 'react';
+import ReactDOM from 'react-dom';
+//import App from './App';
+//import './App.css';
+import './index.css';
+
+
+//var LikeButton=React.createClass({   //LikeButton是组件类的第一个字母必须大写
+//   getInitialState:function(){
+//       return {liked: false};
+//   },
+//   handleClick:function(event){
+//       this.setState({liked:!this.state.liked}); //this.setState 方法就修改状态值
+//   },
+//   render:function(){    //render 提交
+//       var text=this.state.liked?'like':'haven\'t liked';//this.state 属性读取
+//       return (  //this.props 表示那些一旦定义，就不再改变的特性，而 this.state 是会随着用户互动而产生变化的特性
+//           <p onClick={this.handleClick}>
+//               You {text} this. Click to toggle.
+//           </p>
+//       );
+//   }
+//});
+
+
+
+
+//var HelloMessage=React.createClass({
+//    render:function(){
+//        return <h1>hello {this.props.name} {this.props.id}</h1>;
+//    }
+//});
+//class App extends Component{
+//    render(){
+//        return <h1>hello {this.props.name} {this.props.id}</h1>;
+//    }
+//}
+
+
+
+//var color=['red','green','yellow'];
+//var names=['3','5','7','3','5'];
+//var a=1;
+//var names = [{
+//      name:"三好学生",
+//      score:200
+//    },{
+//      name:"清洁卫生",
+//      score:300
+//    },{
+//      name:"演讲比赛",
+//      score:100
+//    },{
+//      name:"班委",
+//      score:200
+//    },{
+//      name:"班级争光",
+//      score:500
+//}];
+
+
+class LikeButton extends Component{
+    constructor(props){
+        super(props);
+        this.changeState = this.changeState.bind(this);
+        this.state = {
+            aa:111111111
+        }
+    }
+    //componentWillMount(){
+    //    alert("开始加载组件")
+    //}
+    //shouldComponentUpdate(){
+    //    alert("即将更新")
+    //    return true
+    //}
+    //componentWillUpdate(){
+    //    alert("开始更新")
+    //}
+    //componentDidUpdate(){
+    //    alert("更新结束")
+    //}
+    //componentDidMount(){
+    //    alert("组件加载完成")
+    //}
+
+    render(){
+        return(
+            <div>
+                <TextA value={this.state.aa}/>
+                <button onClick={this.changeState}>点击</button>
+            </div>
+        )
+    }
+    changeState(){
+        this.setState({
+            aa:5552
+        })
+    }
+}
+class TextA extends Component{
+    constructor(props){
+        super(props);
+        this.state={
+            bb:2222
+        }
+    }
+    //
+    //componentWillUpdate(props,nextState){
+    //    if(props.value==222222222){
+    //        this.setState({
+    //            b:3333
+    //        })
+    //    }
+    //}
+
+    render(){
+        return(
+            <div>
+                <h1>{this.props.value}</h1>
+                <div>{this.state.bb}</div>
+            </div>
+        )
+    }
+
+    //componentDidMount(props,nextState){
+    //    if(this.props.value==22222222222222){
+    //        this.setState({
+    //            b:33333333
+    //        })
+    //    }
+    //}
+    //render(){
+    //    return(
+    //        <div>
+    //            <h1>{this.props.value}</h1>
+    //            <div>{this.state.b}</div>
+    //        </div>
+    //    )
+    //}
+}
+
+ReactDOM.render(
+    <LikeButton/>,
+
+
+
+    //<div>
+    //    <HelloMessage name="John" id="Tom"/>
+    //    <App name="aa" id="Tom"></App>
+    //</div>,
+
+
+
+
+
+//    <div>
+//      {
+//          names.map(function(value,index){
+//          return <div key={index} className="box" style={{
+//          "backgroundColor":color[index>=color.length?index-color.length:index]}}>
+//            <span className="box1">{names[index].name}</span>
+//            <span className="box2">{names[index].score}</span></div>
+//        })
+//      }
+//    </div>,
+
+
+    //(a==1)?<div>111</div>:<div>222</div>,
+    //<div>
+    //  {
+    //    names.map(function(value,index){
+    //      return <div key={index} style={{
+    //      "backgroundColor":color[index]}}>{value}</div>
+    //    })
+    //  }
+    //</div>,
+  document.getElementById('root')
+);
